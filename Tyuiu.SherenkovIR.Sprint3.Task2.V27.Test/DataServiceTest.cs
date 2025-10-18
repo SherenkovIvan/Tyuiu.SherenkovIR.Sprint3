@@ -21,6 +21,5 @@ namespace Tyuiu.SherenkovIR.Sprint3.Task2.V27.Test
 
         }
            
-        
     }
 }
