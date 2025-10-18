@@ -14,8 +14,7 @@ namespace Tyuiu.SherenkovIR.Sprint3.Task2.V27.Lib
                 SumSeries += term;
                 i++;
             } while (i <= stopValue);
-
-            return Math.Round(SumSeries, 3);
+            return Math.Round(SumSeries, 2);
         }
     }
 }
