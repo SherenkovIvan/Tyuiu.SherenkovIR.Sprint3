@@ -6,14 +6,14 @@ namespace Tyuiu.SherenkovIR.Sprint3.Task2.V27.Lib
         public double GetSumSeries(int value, int startValue, int stopValue)
         {
             double SumSeries = 0;
-            int i = 1;
+            int i = startValue;
 
             do
             {
                 double term = 4.0 / (1 + Math.Pow(value, i));
                 SumSeries += term;
                 i++;
-            } while (i <= 14);
+            } while (i <= stopValue);
 
             return Math.Round(SumSeries, 3);
         }
