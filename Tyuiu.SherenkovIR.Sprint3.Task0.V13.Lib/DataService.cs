@@ -11,9 +11,10 @@ namespace Tyuiu.SherenkovIR.Sprint3.Task0.V13.Lib
             {
                 double term = (Math.Pow(a, k) + 0.5) * Math.Cos(k);
                 sumSeries += term;
+                
             }
 
-            return sumSeries;
+             return Math.Round(sumSeries, 3);
         }
     }
 }
