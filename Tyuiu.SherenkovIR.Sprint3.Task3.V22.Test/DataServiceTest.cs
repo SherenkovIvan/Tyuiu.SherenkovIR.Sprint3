@@ -13,7 +13,7 @@ namespace Tyuiu.SherenkovIR.Sprint3.Task3.V22.Test
 
             int res = ds.GetMaxCharCount(str, chr);
 
-            int wait = 7;
+            int wait = 3;
 
             Assert.AreEqual(wait, res);
 

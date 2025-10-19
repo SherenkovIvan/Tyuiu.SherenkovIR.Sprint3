@@ -5,15 +5,26 @@ namespace Tyuiu.SherenkovIR.Sprint3.Task3.V22.Lib
     {
         public int GetMaxCharCount(string value, char item)
         {
-            int count = 0;
-            foreach(char chr in value)
+            int maxCount = 0;
+            int currentCount = 0;
+
+            foreach (char chr in value)
             {
                 if (chr == item)
                 {
-                    count++;
+                    currentCount++;
+                    if (currentCount > maxCount)
+                    {
+                        maxCount = currentCount;
+                    }
+                }
+                else
+                {
+                    currentCount = 0; 
                 }
             }
-            return count;
+
+            return maxCount;
         }
     }
 }
