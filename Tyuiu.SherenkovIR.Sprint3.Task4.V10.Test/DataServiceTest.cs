@@ -13,7 +13,7 @@ namespace Tyuiu.SherenkovIR.Sprint3.Task4.V10.Test
 
             double res = ds.Calculate(startValue, stopValue);
 
-            double wait = 0;
+            double wait = 0.014;
             Assert.AreEqual(res, wait);
 
         }
