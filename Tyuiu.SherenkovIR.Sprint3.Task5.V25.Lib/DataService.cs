@@ -15,7 +15,7 @@ namespace Tyuiu.SherenkovIR.Sprint3.Task5.V25.Lib
                 }
             }
 
-            return Math.Round(sumSeries, 2);
+            return Math.Round(sumSeries, 3);
         }
     }
 }
