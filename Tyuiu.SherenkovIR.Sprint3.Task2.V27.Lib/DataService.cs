@@ -10,8 +10,9 @@ namespace Tyuiu.SherenkovIR.Sprint3.Task2.V27.Lib
 
             do
             {
+                double numerator = Math.Pow(4, i); 
                 double denominator = Math.Pow(1 + Math.Pow(value, i), i); 
-                double term = 4.0 / denominator;
+                double term = numerator / denominator;
                 SumSeries += term;
                 i++;
             } while (i <= stopValue);
